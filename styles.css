@@ -1,1 +1,22 @@
+@charset "utf-8";
+.nav {
+	float: left;
+	border: medium groove #FCFCFC;
+	border-radius: 21px 21px 0px 0px;
+}
+#header ul {
+	position: ;
+	right: 0px;
+	bottom: 0px;
+	margin: 10px;
+	padding: 10px;
+	background-color: ;
+}
+#header li {
+	list-style: none;
+	display: inline;
+}
+.li {
+	border: medium groove #FCFCFC;
+}
 
