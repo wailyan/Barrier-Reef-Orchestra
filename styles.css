@@ -67,3 +67,45 @@ font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:18px;
 }
 
+h1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 3%;
+	
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+table  {
+	border: none;
+	width: 45%;
+	min-width: 50px;
+	border-radius: 1em;
+	padding: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: auto;
+	background-color: #6BC0FF;	
+}
+
+table th {
+	border: none;
+	width: 50%;
+	text-align:left;
+}
+
+table td {
+	border: none;
+}
+
+.top {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.about {
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
