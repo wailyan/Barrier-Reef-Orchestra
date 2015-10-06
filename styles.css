@@ -9,11 +9,10 @@
 	position: ;
 	right: 0px;
 	bottom: 0px;
-	margin: 10px;
+	margin: 0;
 	padding: 10px;
 	text-decoration: none;
-	background-color: ;
-	background-color: #E9E563;
+	background-color: #5D88FF;
 	text-align: center;
 	border-left: medium none #000000;
 	border-right: medium none #000000;
@@ -21,14 +20,11 @@
 	border-top: medium none #000000;
 }
 
-}
-
 
 
 #navbar li {
 	list-style: none;
 	display: inline;
-	background-color: #E9E563;
 	margin-right: 41px;
 	margin-left: 44px;
 	padding-right: 13px;
@@ -36,13 +32,14 @@
 	text-decoration: none;
 	text-align: center;
 }
-#navbar li a { 
-text-decoration: none;
-color:#2E32D9;
-font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+#navbar li a {
+	text-decoration: none;
+	color: #2E32D9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;	
 }
 
-}
 #form {
     border: 1px solid #c6c7cc;
     border-radius: 5px;
