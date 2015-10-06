@@ -106,3 +106,117 @@ table td {
 	margin-right: 5%;
 	
 }
+
+
+
+
+
+
+
+@charset "utf-8";
+.nav {
+	float: left;
+	border: medium groove #FCFCFC;
+	border-radius: 21px 21px 0px 0px;
+	background-color: #E9E563;
+}
+#navbar ul {
+	position: ;
+	right: 0px;
+	bottom: 0px;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #5D88FF;
+	text-align: center;
+	border-left: medium none #000000;
+	border-right: medium none #000000;
+	border-bottom: medium solid #AAAAAA;
+	border-top: medium none #000000;
+}
+
+
+
+#navbar li {
+	list-style: none;
+	display: inline;
+	margin-right: 41px;
+	margin-left: 44px;
+	padding-right: 13px;
+	padding-left: 7px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #2E32D9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;	
+}
+
+
+
+
+
+
+
+form {
+	border: 1px solid #c6c7cc;
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	width: 350px;
+ 	background-color: #FFFFFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	float:left;
+	
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.party-info {
+  padding: 20px 20px 0 20px;
+}
+.party-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.party-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.party-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 10px;
+}
+.party-action .btn {
+  background: linear-gradient( #FF6E00, #FF6802);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 50px;
+  margin-left: 26%;
+
+}
+
