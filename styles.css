@@ -121,7 +121,6 @@ table td {
 	background-color: #E9E563;
 }
 #navbar ul {
-	position: ;
 	right: 0px;
 	bottom: 0px;
 	margin: 0;
@@ -154,29 +153,32 @@ table td {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;	
 }
-
-
-
-
-
-
-
 form {
 	border: 1px solid #c6c7cc;
 	border-radius: 5px;
 	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	overflow: hidden;
 	width: 350px;
- 	background-color: #FFFFFF;
+	background-color: #FFFFFF;
 	margin-left: 5%;
-	margin-right: 5%;
-	float:left;
-	
+	margin-right: 10%;
+	float: left;
+	margin-top: 95px;
 }
+#contactusinfo {
+	margin-top: 81px;
+	float: right;
+	margin-right: 67px;
+
+}
+
+	
+
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: right;
 }
 
 input {
@@ -217,6 +219,5 @@ input {
   float: left;
   padding: 8px 50px;
   margin-left: 26%;
-
 }
 
