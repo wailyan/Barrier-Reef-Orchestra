@@ -133,9 +133,6 @@ table td {
 	border-bottom: medium solid #AAAAAA;
 	border-top: medium none #000000;
 }
-
-
-
 #navbar li {
 	list-style: none;
 	display: inline;
@@ -146,7 +143,6 @@ table td {
 	text-decoration: none;
 	text-align: center;
 }
-
 #navbar li a {
 	text-decoration: none;
 	color: #2E32D9;
@@ -160,28 +156,36 @@ form {
 	overflow: hidden;
 	width: 350px;
 	background-color: #FFFFFF;
-	margin-left: 5%;
-	margin-right: 10%;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: -211px;
 	float: left;
-	margin-top: 95px;
 }
-#contactusinfo {
-	margin-top: 81px;
+#buttonsponsors {
+	margin-top: 69px;
+	margin-right: 89px;
+	padding-top: 8px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: thick none #AAAAAA;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding-right: 32px;
+	text-align: center;
+	padding-left: 15px;
+	margin-left: -49px;
 	float: right;
-	margin-right: 67px;
-
 }
 
 	
 
-fieldset {
+#fieldset {
 	border: 0;
 	margin: 0;
 	padding: 0;
 	float: right;
 }
 
-input {
+#input {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -220,4 +224,5 @@ input {
   padding: 8px 50px;
   margin-left: 26%;
 }
+
 
