@@ -1,16 +1,16 @@
 <!doctype html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="../Desktop/Barrier-Reef-Orchestra-master/styles.css">
 <meta charset="utf-8">
 <title>Untitled Document</title>
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>About Us - The Barrier Reef Orchestra</title>
+
+
 </head>
-<img src="../../header.jpg" alt="" width="100%" height="100%" id="header"/>
-  <nav id="navbar">
+
+<body>
+<header><img src="../Desktop/Barrier-Reef-Orchestra-master/header.jpg" width="100%" height="100%" alt=""/></header>
+<nav id="navbar">
 	<ul><li><a href="index.html">Home </a></li>
     <li> <a href="events.html">Whats On</a></li>
     <li> <a href="#">Join Us</a></li>
@@ -19,23 +19,31 @@
     <li> <a href="contacts.html">Contact Us</a></li>
 </ul>
 </nav>
-<div id="buttonsponsors">
-  <p>The North Queensland Ensembles Inc is a tax deductible fund listed on the Register of Cultural Organisations under Subdivision 30-B of the Income tax Assessment Act 1997. Donations of $2.00 or more are tax deductible</p>
-</div>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<h2>Contact Us</h2>
+<form class="form">
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="John Doe" />
+			<label for="name">Name</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="email" id="email" placeholder="mail@example.com" />
+			<label for="email">Email</label>
+		</p>
+		
+		<p class="number">
+		  <input type="text" name="number" id="number" placeholder="0404 040 404" />
+		  <label for="number">Number</label>
+  </p>		
+	
+	  <p class="text">
+  <textarea name="text" placeholder="Comments"/></textarea><label for="text">
+		
+		<p class="submit">
+  <input type="submit" value="Send" />
+		</p>
+	</form>
 
-<div class="register">
-<form method="post" action="mailto:youremail@youremail.com" >
-<fieldset class="party-info">
-<label>First Name:<input type="text" name="firstname"></label>
-<label>Last Name:<input type="text" name="lastname"></label>
-<label>Email Address:<input type="text" name="emailaddress"></label>
-<label>Telephone Number:<input type="text" name="telephonenumber"></label>
-<label>Additional Comments:<input type="text" name="emailaddress"></label></fieldset>
-</fieldset>
-<fieldset class="party-action">
-<input class="btn" type="submit" name="submit" value="Send">
-</fieldset>
-</form>
+
 </body>
 </html>
