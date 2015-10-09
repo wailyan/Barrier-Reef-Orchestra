@@ -1,147 +1,228 @@
 @charset "utf-8";
 
 header {
-	margin-bottom: -4px;
-	
+    margin-bottom: -4px;
+    
 }
 
 .nav {
-	float: left;
-	border: medium groove #FCFCFC;
-	border-radius: 21px 21px 0px 0px;
-	position:absolute;
-	
+    float: left;
+    border: medium groove #FCFCFC;
+    border-radius: 21px 21px 0px 0px;
+    position:absolute;
+    
 }
 #navbar ul {
-	position: ;
-	right: 0px;
-	bottom: 0px;
-	margin: 0;
-	padding: 10px;
-	text-decoration: none;
-	text-align: center;
-	border-left: medium none #000000;
-	border-right: medium none #000000;
-	border-bottom: medium solid #AAAAAA;
-	border-top: medium none #000000;
-	background-color: #233FE0;
+    position: ;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-left: medium none #000000;
+    border-right: medium none #000000;
+    border-bottom: medium solid #AAAAAA;
+    border-top: medium none #000000;
+    background-color: #233FE0;
 
 }
 
 
 
 #navbar li {
-	list-style: none;
-	display: inline;
-	margin-right: 41px;
-	margin-left: 44px;
-	padding-right: 13px;
-	padding-left: 7px;
-	text-decoration: none;
-	text-align: center;
-	
+    list-style: none;
+    display: inline;
+    margin-right: 41px;
+    margin-left: 44px;
+    padding-right: 13px;
+    padding-left: 7px;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 #navbar li a {
-	text-decoration: none;
-	color: #FFF;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;	
-	
+    text-decoration: none;
+    color: #FFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;    
+    
 }
 
 body {
-	padding: 50px 100px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 50px 100px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #EBEBEB;
 }
 
 h2 {
-	margin-bottom: 20px;
-	color: #474E69;
+    margin-bottom: 20px;
+    color: #474E69;
 }
 
 h1 {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin-left: 3%;
-	
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 3%;
+    
 }
 
 p {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
 table  {
-	border: none;
-	width: 550px;
-	border-radius: 1em;
-	padding: 1em;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: auto;
-	background-color: #FFC343;
-	-webkit-box-shadow: 3px 5px 13px 0px #C4C4C4;
-	box-shadow: 3px 5px 13px 0px #C4C4C4;
-	margin-bottom: 50px;
+    border: none;
+    width: 550px;
+    border-radius: 1em;
+    padding: 1em;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    background-color: #FFC343;
+    -webkit-box-shadow: 3px 5px 13px 0px #C4C4C4;
+    box-shadow: 3px 5px 13px 0px #C4C4C4;
+    margin-bottom: 50px;
 }
 
 table th {
-	border: none;
-	width: 50%;
-	text-align:left;
+    border: none;
+    width: 50%;
+    text-align:left;
 }
 
 table td {
-	border: none;
+    border: none;
 }
 
 .top {
-	text-align: center;
-	padding-bottom: 1em;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 .about {
-	margin-left: 5%;
-	margin-right: 5%;
-	
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
 input, textarea {
-	padding: 10px;
-	border: 1px solid #E5E5E5;
-	width: 200px;
-	color: #999999;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;        
 }
 
 textarea {
-	width: 400px;
-	height: 150px;
-	max-width: 400px;
-	line-height: 18px;
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
 }
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-	border-color: 1px solid #C9C9C9;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;    
 }
 
 .form label {
-	margin-left: 10px;
-	color: #999999;
+    margin-left: 10px;
+    color: #999999;
+    border-bottom-right-radius: 0px;
 }
 
 .submit input {
-	width: 100px;
-	height: 40px;
-	background-color: #F3D452;
-	color: ;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	color: #000000;
+    width: 100px;
+    height: 40px;
+    background-color: #F3D452;
+    color: ;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #000000;
+}
+#Button1{
+    border: thick solid #525252;
+    width: 134px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #767677;
+    height: 30px;
+    padding-right: 0px;
+}
+
+
+#Button1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+#Button2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#Button1:hover{
+    text-color:blue;
+    background-color:#0075F0
+        
+    
+}
+#Button2:hover{
+    text-color:blue;
+    background-color:#0075F0
+        
+    
+}
+
+#sponsorsinfo{
+    width: 500px;
+    text-align: justify;
+    margin-left: 55%;
+    margin-top: -421px;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFDD4D;	
+}
+
+#memberinfo{
+	width: 500px;
+	text-align: justify;
+	margin-left: 55%;
+	margin-top: 160px;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFDD4D;	
+}
+#Button2{
+	border: thick solid #525252;
+	width: 134px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #767677;
+	height: 30px;
+	float: right;
+}
+
+footer {
+	clear: both;
+	margin-top: 50px;
+	text-align: center;
+	font-size:10px;
+	background-color:#A5A5A5;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 1em;
 }
