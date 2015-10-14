@@ -22,24 +22,43 @@
 </div>
 <div class="register">
 <span class="party-info">
-<input type="name" name="phone">
-</span>
-<form method="post" action="mailto:youremail@youremail.com" >
-  <fieldset class="party-info">
-<label>
-Your name:<input type="text" name="name"></label>
-<label>Contact Number:</label>
-<label>How many people:<input type="number" name="numpeople" min="1" max="100"></label>
-</fieldset>
-<fieldset class="party-action">
-<input class="btn" type="submit" name="submit" value="Send">
-</fieldset>
+<form class="form">
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="John Doe" />
+			<label for="name">Name</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="email" id="email" placeholder="mail@example.com" />
+			<label for="email">Email</label>
+		</p>
+		
+		<p class="number">
+		  <input type="text" name="number" id="number" placeholder="0404 040 404" />
+		  <label for="number">Number</label>
+  </p>		
+	
+	  <p class="text">
+  <textarea name="text" placeholder="Comments"/></textarea><label for="text">
+		
+		<p class="submit">
+  <input type="submit" value="Send" />
+		</p>
 </form>
+<div id="MembershipButton">
+	<h3><p id="MemberShipButton.a">Membership</p></h3>
+    <p id="Button1"><a href="#">Join</a></p>
+</div>  
+<div id="RequestsButton">
+	<h3><p id="ResquestsButton.a">Requests</p></h3>
+    <p id="Button1"><a href="#">Submit</a></p>
+</div>  
 
 
 
 
-<p>&nbsp;</p>
+<p></p>
 </body>
 </html>
+
 
