@@ -5,55 +5,81 @@ header {
     
 }
 
-.nav {
-    float: left;
-    border: medium groove #FCFCFC;
-    border-radius: 21px 21px 0px 0px;
-    position:absolute;
-    
+#wrap {
+width: 100%;
+height: 50px;
+margin-top: 0;
+margin-right: 36px;
+margin-left: px;
+margin-bottom: 0;
+z-index: 99;
+position: relative;
+background-color: ;
 }
-#navbar ul {
-    position: ;
-    right: 0px;
-    bottom: 0px;
-    margin: 0;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    border-left: medium none #000000;
-    border-right: medium none #000000;
-    border-bottom: medium solid #AAAAAA;
-    border-top: medium none #000000;
-    background-color: #233FE0;
-
+ 
+.navbar {
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
 }
-
-
-
-#navbar li {
-    list-style: none;
-    display: inline;
-    margin-right: 41px;
-    margin-left: 44px;
-    padding-right: 13px;
-    padding-left: 7px;
-    text-decoration: none;
-    text-align: center;
-    
+.navbar li {
+height: auto;
+width: 16.93%;  
+float: left;  
+text-align: center;  
+list-style: none; 
+font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+padding: 0px;
+margin: 0;
+background-color: #366b82;
 }
 
-#navbar li a {
-    text-decoration: none;
-    color: #FFF;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;    
-    
+.gallery ul li {
+	width: 100%;	
 }
+
+.about ul li {
+	width: 100%;
+}
+
+.navbar a {
+padding: 20px 0;
+border-left: 1px solid #54879d;
+border-right: 1px solid #1f5065;
+text-decoration: none;
+color: white;
+display: block;
+width: 100%;
+}
+.navbar li ul {
+display: none; 
+height: auto;
+margin: 0; 
+padding: 0;
+}
+
+.navbar li:hover ul {
+        display: block; 
+}
+.navbar li ul li a {
+border-left: 1px solid #1f5065;
+border-right: 1px solid #1f5065;
+border-top: 1px solid #74a3b7;
+border-bottom: 1px solid #1f5065;
+}
+ 
+.navbar li ul li a:hover {background-color: #0075F0;}
+
 
 body {
-    padding: 50px 100px;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #EBEBEB;
+	padding-left: 3.3em;
+	padding-right: 3.3em;
+	
 }
 
 h2 {
@@ -63,7 +89,9 @@ h2 {
 
 h1 {
     font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-left: 3%;
+	font-size:24px;
+    margin-left: 2%;
+	color: #474E69;
     
 }
 
@@ -106,14 +134,18 @@ table td {
     
 }
 
+.form {
+	margin-left: 4em;
+}
+
 input, textarea {
-    padding: 10px;
-    border: 1px solid #E5E5E5;
-    width: 200px;
-    color: #999999;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;        
+	padding: 10px;
+	border: 1px solid #CECECE;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
 }
 
 textarea {
@@ -217,6 +249,7 @@ input:focus, textarea:focus {
 	float: right;
 }
 
+
 footer {
 	clear: both;
 	margin-top: 50px;
@@ -226,38 +259,3 @@ footer {
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 1em;
 }
-
-	#sponsorslinks {
-	text-align: center;
-	text-decoration: none;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-#MembershipButton {
-	margin-left: 0px;
-	float: right;
-	margin-right: 312px;
-	margin-top: -335px;
-	border-style: solid;
-	border-color: #E1DA21;
-	background-color: #E1DA21;
-	text-align: center;
-}
-#MemberShipButton.a {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-}
-#RequestsButton {
-	margin-left: 0px;
-	float: right;
-	margin-right: 63px;
-	margin-top: -335px;
-	border-style: solid;
-	border-color: #E1DA21;
-	background-color: #E1DA21;
-	text-align: center;
-}
-#ResquestsButton.a {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-}
-
