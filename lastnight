@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Last Night of Prom - Gallery</title>
+<style>
+    .galleria{ width: 700px; height: 400px;}
+</style>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="galleria-1.4.2.min.js"></script>
+</head>
+
+<body>
+<header><img src="header.jpg" width="100%" height="100%" alt=""/></header>
+<div id="wrap">
+    <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Whats On</a>     
+    </li>
+    <li><a href="#">Join Us</a>           
+    </li>
+    <div class="gallery">
+    <li><a href="#">Gallery</a>
+        <ul>
+       <li><a href="HotSummerNight2008.html">Hot Summer Night 2008</a></li>
+       <li><a href="SlavonicSwoon.html">Slavonic Swoon 2008</a></li>
+       <li><a href="LastNightOfProm.html">Last Night of the Proms 2009</a></li>  
+    </ul>
+    </div>         
+    </li>
+    <div class="about">
+    <li><a href="#">About Us</a>
+    <ul>
+       <li><a href="#">Sponsors</a></li>
+       <li><a href="#">People</a></li>
+       <li><a href="#">History</a></li>       
+    </ul>
+    </div>        
+    </li>
+    <li><a href="#">Contact Us</a>             
+    </li>
+    </ul>
+</div>
+<h2>Last Night of Proms</h2>
+<div id="Container">
+	<div class="galleria">
+    	<img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0001.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0011.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0014.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0025.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0067.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0082.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0103.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0331.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0373.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0375.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0377.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0422.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0424.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0442.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0550.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0552.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0562.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0566.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0567.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0592.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0679.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0683.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0686.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0692.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0693.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0749.jpg">
+        <img src="images/lastnightofproms/last_night_of_the_proms_bro_dsc0798.jpg">        
+	</div>
+</div>
+<script>
+        Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+        Galleria.run('.galleria');
+</script>
+</body>
+</html>
