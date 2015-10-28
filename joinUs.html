@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Join Us - The Barrier Reef</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<script src="memberform.js"></script>
 </head>
 
 <body>
@@ -40,12 +41,12 @@
 </div>
 
 <div class="facebook">
-<a href="https://www.facebook.com/nqorchestra/timeline"><img src="index/facebook_logo.jpg" width="50%" height="50%" alt=""/></a>
+<a href="https://www.facebook.com/nqorchestra/timeline"><img src="face/facebook_logo.jpg" width="50%" height="50%" alt=""/></a>
 </div>
 
 <h1>Join Us </h1>
 
-<form id="memberform" action="http://ditwebtsv.jcu.edu.au/~sci-lmw1/forms.php">
+<form name="memberform" action="http://ditwebtsv.jcu.edu.au/~sci-lmw1/forms.php" onsubmit="return validateForm()" method="post">
   <p class="name">
 			<input type="text" name="name" id="name" placeholder="John Doe" />
 			<label for="name">Name</label>
@@ -64,29 +65,29 @@
 	  <p class="address">
   <textarea name="address" placeholder="Home Adress"/></textarea><label for="text">
 		<p class="type">
-        <input type="checkbox" ><label>Adult - $30</label>
-        <input type="checkbox" ><label>Student - $15</label>
-        <input type="checkbox" ><label>Concession - $15*</label>
-        <input type="checkbox" ><label>Family - $60**</label>
+        <input type="checkbox" name="adult" ><label>Adult - $30</label>
+        <input type="checkbox" name="student" ><label>Student - $15</label>
+        <input type="checkbox" name="concession"><label>Concession - $15*</label>
+        <input type="checkbox" name="family" ><label>Family - $60**</label>
         </p>
       
       Please fill out if selected Family Membership<br>
-      <input type="text" name="name" id="name" placeholder="John Doe" /><label>Partner</label>
+      <input type="text" name="partner"  placeholder="John Doe" /><label>Partner</label>
       
       <p class="children">
-      <input type="text" name="name" id="name" placeholder="John Doe" /><label>Child 1</label>
+      <input type="text" name="child1"  placeholder="John Doe" /><label>Child 1</label>
       <input type="date"><label>Date of Birth</label>
-      <input type="text" name="name" id="name" placeholder="John Doe" /><label>Child 2</label>
+      <input type="text" name="child2"  placeholder="John Doe" /><label>Child 2</label>
       <input type="date"><label>Date of Birth</label>
-      <input type="text" name="name" id="name" placeholder="John Doe" /><label>Child 3</label>
+      <input type="text" name="child3"  placeholder="John Doe" /><label>Child 3</label>
       <input type="date"><label>Date of Birth</label>
       </p>
       
       <p class="paymnet">
       Payment Type:<br>
-      <input type="checkbox"><label>Cash</label>
-      <input type="checkbox"><label>Cheque</label>
-      <input type="checkbox"><label>Direct Debit***</label>
+      <input type="checkbox" name="cash"><label>Cash</label>
+      <input type="checkbox" name="cheque"><label>Cheque</label>
+      <input type="checkbox" name="direct"><label>Direct Debit***</label>
       </p>
 		<p class="submit">
   <input type="submit" value="Submit" />
